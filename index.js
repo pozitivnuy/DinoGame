@@ -6,7 +6,7 @@ document.addEventListener('keydown', (e) => {
 }) 
 
 const jump = () => {
-  if(dino.classList != 'jump') {
+  if(dino.classList !== 'jump') {
     dino.classList.add('jump')
   }
   setTimeout(() => {
